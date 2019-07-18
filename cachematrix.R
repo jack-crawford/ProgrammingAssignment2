@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Jack Crawford
+## makeCacheMatrix takes in the original matrix and creates its own matrix object
+## complete with setters and getters
 
 ## Write a short comment describing this function
 #setters and getters for the inverse
@@ -20,7 +21,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 # actual calculation of the inverse
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
